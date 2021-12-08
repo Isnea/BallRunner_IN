@@ -53,12 +53,12 @@ BallRunner_IN/Plugins/*/Binaries/*
 BallRunner_IN/Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
+BallRunner_IN/!Build/*/
 BallRunner_IN/Build/*/**
-!Build/*/PakBlacklist*.txt
+BallRunner_IN/!Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
-!Build/**/*.ico
+BallRunner_IN/!Build/**/*.ico
 
 # Built data for maps
 *_BuiltData.uasset
